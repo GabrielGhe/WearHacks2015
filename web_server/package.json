@@ -8,6 +8,7 @@
   "dependencies": {
     "express": "3.4.8",
     "ejs": "*",
-    "mongoose": "4.1.9"
+    "mongoose": "4.1.9",
+    "twilio": "2.4.0"
   }
 }
