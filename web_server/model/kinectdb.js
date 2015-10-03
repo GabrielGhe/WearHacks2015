@@ -15,3 +15,4 @@ newEntry.save(function(err){
 });
 */
 module.exports = mongoose.model('Entry', schema);
+module.exports.Entry = mongoose.model('Entry', schema);

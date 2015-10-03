@@ -24,8 +24,8 @@ exports.post = function(req, res){
 	newEntry.save(function(err){
 		if (err) {
 			console.log("Error saving Entry to DB: " + err);
-			res.status(404);
+			res.send(404);
 		}
-		res.status(200);
+		res.send(200);
 	});
 };
