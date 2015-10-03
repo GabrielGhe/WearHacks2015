@@ -8,6 +8,14 @@ var status = require('./routes/status');
 var http = require('http');
 var path = require('path');
 
+//Mongoose connecting
+//---------------------------------------------
+var mongoose = require('mongoose');
+mongoose.connect('mongodb://localhost/kinectdb');//db name
+mongoose.connection.on('error', function() {
+  console.error('✗ MongoDB Connection Error. Please make sure MongoDB is running.');
+});
+
 var app = express();
 
 // all environments
@@ -30,7 +38,8 @@ if ('development' == app.get('env')) {
 }
 
 app.get('/', routes.index);
-app.get('/status', status.list);
+app.get('/status', status.get);
+app.post('/status', status.post);
 app.post('/',routes.index);
 
 http.createServer(app)
