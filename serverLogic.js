@@ -14,6 +14,9 @@ var restThreshold = 300*1000; //how long a rest/walk is allowed to endure before
 var workCtr = 0; //how long a user has been working
 var workThreshold = 1200*1000; //how long a work session goes until rest is called for
 
+var noPerson = true;
+var eyesClosed = true;
+
 UserState = {
 	SLEEP : 1,
 	WORK : 2,
@@ -24,6 +27,7 @@ UserState = {
 // looping function
 /////
 update() {
+	kinectData = getKinectData();
 	userState = getAwakeState();
 
 	if(userState == UserState.SLEEP) {
@@ -38,6 +42,18 @@ update() {
 		}
 	}
 
+}
+
+getKinectData() {
+	if( data == [] )
+		noPerson = true;
+	else
+		noPerson = false;
+
+	if(data['eyes'] == 'closed')
+		eyesClosed = true;
+	else
+		eyesClosed = false;
 }
 
 getUserState() {
@@ -67,7 +83,7 @@ sleep() {
 	workCtr = 0;
 	restCtr = 0;
 
-	if(sleepCtr!=0)
+	if(sleepCtr == 0)
 		sleepCtr = new Date();
 
 	if((new Date() - sleepCtr) > napThreshold) {
@@ -79,7 +95,7 @@ work() {
 	sleepCtr = 0;
 	restCtr = 0;
 
-	if(workCtr!=0)
+	if(workCtr == 0)
 		workCtr = new Date();
 
 	if((new Date() - workCtr) > workThreshold) {
@@ -91,7 +107,7 @@ rest() {
 	sleepCtr = 0;
 	workCtr = 0;
 
-	if(restCtr!=0)
+	if(restCtr == 0)
 		restCtr = new Date();
 
 	if((new Date() - restCtr) > restThreshold) {
