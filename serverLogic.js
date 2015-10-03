@@ -3,16 +3,16 @@
 
 //vars and counters
 var eyesClosedCtr = 0; // how long eyes have been closed
-var sleepThreshold = 300; //amount of time til eyes clsoed is considered sleeping
+var sleepThreshold = 30*1000; //amount of time til eyes clsoed is considered sleeping
 
 var sleepCtr = 0; //how long user is asleep
-var napThreshold = 3000; // how long a sleep is allowed to last
+var napThreshold = 1800*1000; // how long a sleep is allowed to last
 
 var restCtr = 0; //how long a rest/walk has been
-var restThreshold = 500; //how long a rest/walk is allowed to endure before a pebble notification
+var restThreshold = 300*1000; //how long a rest/walk is allowed to endure before a pebble notification
 
 var workCtr = 0; //how long a user has been working
-var workThreshold = 2000; //how long a work session goes until rest is called for
+var workThreshold = 1200*1000; //how long a work session goes until rest is called for
 
 UserState = {
 	SLEEP : 1,
@@ -67,9 +67,10 @@ sleep() {
 	workCtr = 0;
 	restCtr = 0;
 
-	sleepCtr++;
+	if(sleepCtr!=0)
+		sleepCtr = new Date();
 
-	if(sleepCtr > napThreshold) {
+	if((new Date() - sleepCtr) > napThreshold) {
 		Pebble.sendWakeup();
 	}
 }
@@ -78,9 +79,10 @@ work() {
 	sleepCtr = 0;
 	restCtr = 0;
 
-	workCtr++;
+	if(workCtr!=0)
+		workCtr = new Date();
 
-	if(workCtr > workThreshold) {
+	if((new Date() - workCtr) > workThreshold) {
 		Pebble.sendBreak();
 	}
 }
@@ -89,9 +91,10 @@ rest() {
 	sleepCtr = 0;
 	workCtr = 0;
 
-	restCtr++;
+	if(restCtr!=0)
+		restCtr = new Date();
 
-	if(restCtr > restThreshold) {
+	if((new Date() - restCtr) > restThreshold) {
 		Pebble.sendWork();
 	}
 }
