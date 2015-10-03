@@ -6,8 +6,9 @@
     "start": "node app.js"
   },
   "dependencies": {
-    "express": "3.4.8",
     "ejs": "*",
+    "express": "3.4.8",
+    "mongodb": "^2.0.45",
     "mongoose": "4.1.9",
     "twilio": "2.4.0"
   }
