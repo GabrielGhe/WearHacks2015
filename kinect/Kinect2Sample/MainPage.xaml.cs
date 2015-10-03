@@ -47,21 +47,23 @@ namespace Kinect2Sample
         private int sleepThreshold = 3 * 1000; //amount of time til eyes clsoed is considered sleeping
 
         private Stopwatch sleepCtr = new Stopwatch(); //how long user is asleep
-        private int napThreshold = 1800 * 1000; // how long a sleep is allowed to last
+        private int napThreshold = 18 * 1000; // how long a sleep is allowed to last
 
         private Stopwatch restCtr = new Stopwatch(); //how long a rest/walk has been
-        private int restThreshold = 300 * 1000; //how long a rest/walk is allowed to endure before a pebble notification
+        private int restThreshold = 10 * 1000; //how long a rest/walk is allowed to endure before a pebble notification
 
         private Stopwatch workCtr = new Stopwatch(); //how long a user has been working
-        private int workThreshold = 1200 * 1000; //how long a work session goes until rest is called for
+        private int workThreshold = 15 * 1000; //how long a work session goes until rest is called for
 
         private Stopwatch sendSmooth = new Stopwatch();
 
-        private const string url = "http://192.168.1.14:1402/";
+        private const string url = "http://localhost:3000/";
 
+      //  private const string url = "http://192.168.1.14:1402/";
         private HttpClient wb = new HttpClient();
 
         private string userstate = "working";
+        private string laststate = "";
 
         private int eyesOpenCounter = 0;
         private int eyesClosedCounter = 0;
@@ -558,7 +560,6 @@ namespace Kinect2Sample
                     using (colorFrame = multiSourceFrame.ColorFrameReference.AcquireFrame())
                     {
                         ShowColorFrame(colorFrame);
-                        dynamic test = Microsoft.Kinect.Face.FaceFrameFeatures.Glasses;
                         this.faceManager.DrawLatestFaceResults(this.FacePointsCanvas, this.faceFrameFeatures);
                     }
                     break;
@@ -576,6 +577,7 @@ namespace Kinect2Sample
 
         private void DrawFaceOnInfrared()
         {
+            laststate = userstate;
             FacePointsCanvas.Children.Clear();
             FaceFrameResult[] results = faceManager.GetLatestFaceFrameResults();
             bool onRest = true;
@@ -625,13 +627,24 @@ namespace Kinect2Sample
 
                     if (leftEyeIsClosed && rightEyeIsClosed)
                     {
+                        eyesOpenCounter = 0;
                         eyesClosedCounter++;
-                        currentEyes = "closed";
+                        if (eyesClosedCounter == 10)
+                        {
+                            currentEyes = "closed";
+                            eyesClosedCounter = 0;
+                        }
+                        
                     }
                     else
                     {
+                        eyesClosedCounter = 0;
                         eyesOpenCounter++;
-                        currentEyes = "open";
+                        if (eyesOpenCounter == 10)
+                        {
+                            currentEyes = "open";
+                            eyesOpenCounter = 0;
+                        }
                     }
 
 
@@ -688,7 +701,7 @@ namespace Kinect2Sample
             {
                 if (workCtr.IsRunning)
                 {
-                    workCtr.Stop();
+                    workCtr.Reset();
                 }
                 if (!restCtr.IsRunning)
                 {
@@ -704,11 +717,13 @@ namespace Kinect2Sample
 
         private void SendData()
         {
-            if (!sendSmooth.IsRunning)
-            {
-                sendSmooth.Start();
-            }
-            if (sendSmooth.ElapsedMilliseconds >= 5000) 
+            //if (!sendSmooth.IsRunning)
+            //{
+            //    sendSmooth.Start();
+            //}
+            //if (sendSmooth.ElapsedMilliseconds >= 5000) 
+            //{
+            if (laststate != userstate)
             {
                 HttpContent content = new FormUrlEncodedContent(new[]
                 {
@@ -723,6 +738,7 @@ namespace Kinect2Sample
                 sendSmooth.Reset();
                 sendSmooth.Start();
             }
+           // }
         }
 
         unsafe private void ShowMappedColorBackgroundRemoved(DepthSpacePoint[] colorMappedToDepthPoints, ushort[] depthFrameData, FrameDescription frameDescription)
