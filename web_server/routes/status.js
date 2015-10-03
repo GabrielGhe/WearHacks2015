@@ -2,7 +2,7 @@
 /*
  * GET users listing.
  */
-
+ 
 var kinectdb = require("../model/kinectdb");
 
 exports.get = function(req, res){
@@ -20,10 +20,12 @@ exports.get = function(req, res){
 };
 
 exports.post = function(req, res){
-	var Entry = mongoose.model('Entry', schema);
-	var newEntry = new Entry({value: req.body});
+	var newEntry = new kinectdb.Entry({value: JSON.stringify(req.body)});
 	newEntry.save(function(err){
-		if (err)
+		if (err) {
 			console.log("Error saving Entry to DB: " + err);
+			res.status(404);
+		}
+		res.status(200);
 	});
 };
