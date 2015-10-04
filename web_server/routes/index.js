@@ -9,12 +9,24 @@ var client = new twilio.RestClient('AC0662afad9cf5f3753a00b71e5b0ad975', '73deae
 
 exports.index = function(req, res){
   res.render('index', { title: 'Express' });
+	sendTwilioMessage('+1 514-574-8677','1 514-574-8677',JSON.stringify(req.body), function(error, message) {
+		res.send(200);
+	});
+  console.log(req.body);
+};
 
-  	
+
+exports.wakeup = function(req, res){
+	sendTwilioMessage('+1 514-574-8677','1 514-574-8677', 'Wake up!', function(error, message) {
+		res.send(200);
+	});
+};
+
+function sendTwilioMessage(destinationNumber, fromNumber, body) {
 	client.sms.messages.create({
-	    to:'+1 514-574-8677',
-	    from:'1 647-931-1254',
-	    body: JSON.stringify(req.body)
+	    to: destinationNumber,
+	    from: fromNumber,
+	    body: body
 	}, function(error, message) {
 	    // The HTTP request to Twilio will run asynchronously. This callback
 	    // function will be called when a response is received from Twilio
@@ -33,7 +45,8 @@ exports.index = function(req, res){
 	        console.log('Oops! There was an error.'+JSON.stringify(req.body));
 	        console.log('error: ' + JSON.stringify(error));
 	    }
+		if (callback) {
+			callback(error, message);
+		}
 	});
-
-  console.log(req.body);
-};
+}
