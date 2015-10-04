@@ -51,9 +51,11 @@ namespace Kinect2Sample
         private Stopwatch sendSmooth = new Stopwatch();
 
         //private const string url = "http://localhost:3000/";
-        private const string url = "http://96.20.62.211:3000/";
+        private const string url = "http://10.10.10.194:3000/";
       //  private const string url = "http://192.168.1.14:1402/";
         private HttpClient wb = new HttpClient();
+
+        private string serverStatus = "searching";
 
         private string userstate = "working";
         private string laststate = "";
@@ -526,7 +528,7 @@ namespace Kinect2Sample
                 wb.PostAsync(url, content).ContinueWith(
                 (postTask) =>
                 {
-                    postTask.Result.EnsureSuccessStatusCode();
+                    serverStatus = postTask.Result.EnsureSuccessStatusCode().ToString();
                 });
             }
            // }
