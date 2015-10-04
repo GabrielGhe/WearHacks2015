@@ -5,7 +5,7 @@
  
 var kinectdb = require("../model/kinectdb");
 
-exports.get = function(req, res){
+exports.getLatest = function(req, res){
 	kinectdb.find({}).sort({created: -1}).exec(function(err, entry) {
 		if (err)
 			console.log("Error getting Entry from DB: " + err);
@@ -13,6 +13,17 @@ exports.get = function(req, res){
 			if(entry[0])
 				res.json(entry[0]);
 			else
+				res.json(entry);
+		else
+			res.json({Error: 'No Entry found in database.'});
+	});
+};
+
+exports.getAll = function(req, res){
+	kinectdb.find({}).sort({created: -1}).exec(function(err, entry) {
+		if (err)
+			console.log("Error getting Entry from DB: " + err);
+		if (entry)
 				res.json(entry);
 		else
 			res.json({Error: 'No Entry found in database.'});

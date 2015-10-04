@@ -38,7 +38,8 @@ if ('development' == app.get('env')) {
 }
 
 app.get('/', routes.index);
-app.get('/status', status.get);
+app.get('/status', status.getLatest);
+app.get('/status/all', status.getAll);
 app.post('/status', status.post);
 app.post('/',routes.index);
 
