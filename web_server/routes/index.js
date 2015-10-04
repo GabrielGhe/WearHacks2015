@@ -20,6 +20,12 @@ exports.wakeup = function(req, res){
 	});
 };
 
+exports.takeabreak = function(req, res){
+	sendTwilioMessage('+1 514-574-8677','+1 647-931-1254', 'Take a break!', function(error, message) {
+		res.send(200);
+	});
+};
+
 function sendTwilioMessage(destinationNumber, fromNumber, body, callback) {
 	client.sms.messages.create({
 	    to: destinationNumber,
