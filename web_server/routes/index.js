@@ -10,18 +10,18 @@ var client = new twilio.RestClient('AC0662afad9cf5f3753a00b71e5b0ad975', '73deae
 exports.index = function(req, res){
 	res.render('index', { title: 'Express' });
 	console.log(req.body);
-	sendTwilioMessage('+1 514-574-8677','+1 647-931-1254',JSON.stringify(req.body));
+	sendTwilioMessage('+1 514-574-8677','1 647-931-1254',JSON.stringify(req.body));
 };
 
 
 exports.wakeup = function(req, res){
-	sendTwilioMessage('+1 514-574-8677','+1 647-931-1254', 'Wake up!', function(error, message) {
+	sendTwilioMessage('+1 514-574-8677','1 647-931-1254', 'Wake up!', function(error, message) {
 		res.send(200);
 	});
 };
 
 exports.takeabreak = function(req, res){
-	sendTwilioMessage('+1 514-574-8677','+1 647-931-1254', 'Take a break!', function(error, message) {
+	sendTwilioMessage('+1 514-574-8677','1 647-931-1254', 'Take a break!', function(error, message) {
 		res.send(200);
 	});
 };
@@ -45,6 +45,8 @@ function sendTwilioMessage(destinationNumber, fromNumber, body, callback) {
 	 
 	        console.log('Message sent on:');
 	        console.log(message.dateCreated);
+			
+			console.log("Message content: " + body);
 	    } else {
 	        console.log('Oops! There was an error.'+JSON.stringify(body));
 	        console.log('error: ' + JSON.stringify(error));
