@@ -12,8 +12,8 @@ exports.index = function(req, res){
 
   	
 	client.sms.messages.create({
-	    to:'+destinationNumber',
-	    from:'1 514-574-8677',
+	    to:'+1 514-574-8677',
+	    from:'1 647-931-1254',
 	    body: JSON.stringify(req.body)
 	}, function(error, message) {
 	    // The HTTP request to Twilio will run asynchronously. This callback
