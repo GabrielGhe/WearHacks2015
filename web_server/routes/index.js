@@ -4,13 +4,20 @@
  */
 
 var twilio = require('twilio');
-
 var client = new twilio.RestClient('AC0662afad9cf5f3753a00b71e5b0ad975', '73deaec2c6121bea06685b15c6580fce');
+var kinectdb = require("../model/kinectdb");
 
 exports.index = function(req, res){
 	res.render('index', { title: 'Express' });
 	console.log(req.body);
-	sendTwilioMessage('+1 514-574-8677','1 647-931-1254',JSON.stringify(req.body));
+	sendTwilioMessage('+1 514-574-8677','1 647-931-1254',JSON.stringify(req.body), function(error, message) {
+		var newEntry = new kinectdb.Entry({value: JSON.stringify(req.body)});
+		newEntry.save(function(err){
+			if (err) {
+				console.log("Error saving Entry to DB: " + err);
+			}
+		});
+	});
 };
 
 
