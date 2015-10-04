@@ -38,6 +38,8 @@ if ('development' == app.get('env')) {
 }
 
 app.get('/', routes.index);
+app.get('/takeabreak', routes.takeabreak);
+app.get('/wakeup', routes.wakeup);
 app.get('/status', status.getLatest);
 app.get('/status/all', status.getAll);
 app.post('/status', status.post);

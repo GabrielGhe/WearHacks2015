@@ -8,12 +8,29 @@ var kinectdb = require("../model/kinectdb");
 var client = new twilio.RestClient('AC0662afad9cf5f3753a00b71e5b0ad975', '73deaec2c6121bea06685b15c6580fce');
 
 exports.index = function(req, res){
-  res.render('index', { title: 'Express' });
-  
+	res.render('index', { title: 'Express' });
+	console.log(req.body);
+	sendTwilioMessage('+1 514-574-8677','+1 647-931-1254',JSON.stringify(req.body));
+};
+
+
+exports.wakeup = function(req, res){
+	sendTwilioMessage('+1 514-574-8677','+1 647-931-1254', 'Wake up!', function(error, message) {
+		res.send(200);
+	});
+};
+
+exports.takeabreak = function(req, res){
+	sendTwilioMessage('+1 514-574-8677','+1 647-931-1254', 'Take a break!', function(error, message) {
+		res.send(200);
+	});
+};
+
+function sendTwilioMessage(destinationNumber, fromNumber, body, callback) {
 	client.sms.messages.create({
-	    to:'+1 514-574-8677',
-	    from:'+1 647-931-1254',
-	    body: JSON.stringify(req.body)
+	    to: destinationNumber,
+	    from: fromNumber,
+	    body: body
 	}, function(error, message) {
 			var newEntry = new kinectdb.Entry({value: JSON.stringify(req.body)});
 			newEntry.save(function(err){
@@ -37,10 +54,11 @@ exports.index = function(req, res){
 	        console.log('Message sent on:');
 	        console.log(message.dateCreated);
 	    } else {
-	        console.log('Oops! There was an error.'+JSON.stringify(req.body));
+	        console.log('Oops! There was an error.'+JSON.stringify(body));
 	        console.log('error: ' + JSON.stringify(error));
 	    }
+		if (callback) {
+			callback(error, message);
+		}
 	});
-
-  console.log(req.body);
-};
+}
