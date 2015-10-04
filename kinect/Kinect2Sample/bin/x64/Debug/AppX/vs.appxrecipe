@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DOLLARSURFACE</Machine>
+    <WindowsUser>Dollar</WindowsUser>
+    <SolutionConfiguration>Debug|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>33ba04fc-07f2-4c70-b056-f6f14aeb9b79</PackageIdentityName>
+    <RegisteredManifestChecksum>D3E24C2BAAFC8A9518514765BD9AC23DE4CEBC312D154B123783EA3AD8A73801</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>33ba04fc-07f2-4c70-b056-f6f14aeb9b79_1.0.0.0_x64__2ysye2qyxxc1e</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>33ba04fc-07f2-4c70-b056-f6f14aeb9b79_2ysye2qyxxc1e!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>33ba04fc-07f2-4c70-b056-f6f14aeb9b79</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Jesse</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Dollar\Desktop\WearHacks2015\gitnew\kinect\Kinect2Sample\bin\x64\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-04T14:36:10.042</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Dollar\Desktop\WearHacks2015\gitnew\kinect\Kinect2Sample\bin\x64\Debug\Kinect2Sample.exe">
+      <PackagePath>Kinect2Sample.exe</PackagePath>
+      <Modified>2015-10-04T14:36:08.629</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\References\CommonConfiguration\neutral\Microsoft.Kinect.Face.winmd">
+      <PackagePath>Microsoft.Kinect.Face.winmd</PackagePath>
+      <Modified>2014-10-19T18:17:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dollar\Desktop\WearHacks2015\gitnew\kinect\Kinect2Sample\Libraries\x64\KinectFaceStore.dll">
+      <PackagePath>KinectFaceStore.dll</PackagePath>
+      <Modified>2015-10-04T14:35:10.705</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\Redist\CommonConfiguration\x64\NuiDatabase\HDFaceTracker\AAMModel\3DModel.bin">
+      <PackagePath>NuiDatabase\HDFaceTracker\AAMModel\3DModel.bin</PackagePath>
+      <Modified>2014-10-19T16:42:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\Redist\CommonConfiguration\x64\NuiDatabase\HDFaceTracker\AAMModel\3DModel_globalPCA.bin">
+      <PackagePath>NuiDatabase\HDFaceTracker\AAMModel\3DModel_globalPCA.bin</PackagePath>
+      <Modified>2014-10-19T16:42:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\Redist\CommonConfiguration\x64\NuiDatabase\HDFaceTracker\AAMModel\AAMModelData_F.bin">
+      <PackagePath>NuiDatabase\HDFaceTracker\AAMModel\AAMModelData_F.bin</PackagePath>
+      <Modified>2014-10-19T16:42:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\Redist\CommonConfiguration\x64\NuiDatabase\HDFaceTracker\AAMModel\AAMModelData_HLP.bin">
+      <PackagePath>NuiDatabase\HDFaceTracker\AAMModel\AAMModelData_HLP.bin</PackagePath>
+      <Modified>2014-10-19T16:42:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\Redist\CommonConfiguration\x64\NuiDatabase\HDFaceTracker\AAMModel\AAMModelData_HRP.bin">
+      <PackagePath>NuiDatabase\HDFaceTracker\AAMModel\AAMModelData_HRP.bin</PackagePath>
+      <Modified>2014-10-19T16:42:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\Redist\CommonConfiguration\x64\NuiDatabase\HDFaceTracker\MouthModel\close.mod.bin">
+      <PackagePath>NuiDatabase\HDFaceTracker\MouthModel\close.mod.bin</PackagePath>
+      <Modified>2014-10-19T16:42:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\Redist\CommonConfiguration\x64\NuiDatabase\FaceAlignment.bin">
+      <PackagePath>NuiDatabase\FaceAlignment.bin</PackagePath>
+      <Modified>2014-10-19T16:42:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\Redist\CommonConfiguration\x64\NuiDatabase\FaceAlignmentColor.bin">
+      <PackagePath>NuiDatabase\FaceAlignmentColor.bin</PackagePath>
+      <Modified>2014-10-19T16:42:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\Redist\CommonConfiguration\x64\NuiDatabase\FaceAlignmentColor27.bin">
+      <PackagePath>NuiDatabase\FaceAlignmentColor27.bin</PackagePath>
+      <Modified>2014-10-19T16:42:56.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\Redist\CommonConfiguration\x64\NuiDatabase\FaceDetector.bin">
+      <PackagePath>NuiDatabase\FaceDetector.bin</PackagePath>
+      <Modified>2014-10-19T16:42:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\Redist\CommonConfiguration\x64\NuiDatabase\FaceOrientation.bin">
+      <PackagePath>NuiDatabase\FaceOrientation.bin</PackagePath>
+      <Modified>2014-10-19T16:42:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\Redist\CommonConfiguration\x64\NuiDatabase\FaceTrackingColor27.bin">
+      <PackagePath>NuiDatabase\FaceTrackingColor27.bin</PackagePath>
+      <Modified>2014-10-19T16:42:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\Redist\CommonConfiguration\x64\NuiDatabase\HDFaceTracker\EvalModel\front.mod.bin">
+      <PackagePath>NuiDatabase\HDFaceTracker\EvalModel\front.mod.bin</PackagePath>
+      <Modified>2014-10-19T16:42:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\Redist\CommonConfiguration\x64\NuiDatabase\HDFaceTracker\ViewModel\front.mod.bin">
+      <PackagePath>NuiDatabase\HDFaceTracker\ViewModel\front.mod.bin</PackagePath>
+      <Modified>2014-10-19T16:42:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\Redist\CommonConfiguration\x64\NuiDatabase\HDFaceTracker\EvalModel\front_nose.mod.bin">
+      <PackagePath>NuiDatabase\HDFaceTracker\EvalModel\front_nose.mod.bin</PackagePath>
+      <Modified>2014-10-19T16:42:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\Redist\CommonConfiguration\x64\NuiDatabase\HDFaceTracker\EvalModel\left.mod.bin">
+      <PackagePath>NuiDatabase\HDFaceTracker\EvalModel\left.mod.bin</PackagePath>
+      <Modified>2014-10-19T16:42:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\Redist\CommonConfiguration\x64\NuiDatabase\HDFaceTracker\ViewModel\left.mod.bin">
+      <PackagePath>NuiDatabase\HDFaceTracker\ViewModel\left.mod.bin</PackagePath>
+      <Modified>2014-10-19T16:42:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\Redist\CommonConfiguration\x64\NuiDatabase\HDFaceTracker\EvalModel\left_nose.mod.bin">
+      <PackagePath>NuiDatabase\HDFaceTracker\EvalModel\left_nose.mod.bin</PackagePath>
+      <Modified>2014-10-19T16:42:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\Redist\CommonConfiguration\x64\NuiDatabase\HDFaceTracker\MouthModel\lopen.mod.bin">
+      <PackagePath>NuiDatabase\HDFaceTracker\MouthModel\lopen.mod.bin</PackagePath>
+      <Modified>2014-10-19T16:42:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\Redist\CommonConfiguration\x64\NuiDatabase\HDFaceTracker\AAMModel\PCAMaskBias.bin">
+      <PackagePath>NuiDatabase\HDFaceTracker\AAMModel\PCAMaskBias.bin</PackagePath>
+      <Modified>2014-10-19T16:42:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\Redist\CommonConfiguration\x64\NuiDatabase\HDFaceTracker\EvalModel\right.mod.bin">
+      <PackagePath>NuiDatabase\HDFaceTracker\EvalModel\right.mod.bin</PackagePath>
+      <Modified>2014-10-19T16:42:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\Redist\CommonConfiguration\x64\NuiDatabase\HDFaceTracker\ViewModel\right.mod.bin">
+      <PackagePath>NuiDatabase\HDFaceTracker\ViewModel\right.mod.bin</PackagePath>
+      <Modified>2014-10-19T16:42:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\Redist\CommonConfiguration\x64\NuiDatabase\HDFaceTracker\EvalModel\right_nose.mod.bin">
+      <PackagePath>NuiDatabase\HDFaceTracker\EvalModel\right_nose.mod.bin</PackagePath>
+      <Modified>2014-10-19T16:42:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\Redist\CommonConfiguration\x64\NuiDatabase\HDFaceTracker\MouthModel\close.p.txt">
+      <PackagePath>NuiDatabase\HDFaceTracker\MouthModel\close.p.txt</PackagePath>
+      <Modified>2014-10-19T16:42:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\Redist\CommonConfiguration\x64\NuiDatabase\HDFaceTracker\EvalModel\Front.p.txt">
+      <PackagePath>NuiDatabase\HDFaceTracker\EvalModel\Front.p.txt</PackagePath>
+      <Modified>2014-10-19T16:42:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\Redist\CommonConfiguration\x64\NuiDatabase\HDFaceTracker\ViewModel\front.p.txt">
+      <PackagePath>NuiDatabase\HDFaceTracker\ViewModel\front.p.txt</PackagePath>
+      <Modified>2014-10-19T16:42:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\Redist\CommonConfiguration\x64\NuiDatabase\HDFaceTracker\WholeHeadModel\FullHeadMaskVertexCorrespondence.txt">
+      <PackagePath>NuiDatabase\HDFaceTracker\WholeHeadModel\FullHeadMaskVertexCorrespondence.txt</PackagePath>
+      <Modified>2014-10-19T16:42:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\Redist\CommonConfiguration\x64\NuiDatabase\HDFaceTracker\EvalModel\left.p.txt">
+      <PackagePath>NuiDatabase\HDFaceTracker\EvalModel\left.p.txt</PackagePath>
+      <Modified>2014-10-19T16:42:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\Redist\CommonConfiguration\x64\NuiDatabase\HDFaceTracker\ViewModel\left.p.txt">
+      <PackagePath>NuiDatabase\HDFaceTracker\ViewModel\left.p.txt</PackagePath>
+      <Modified>2014-10-19T16:42:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\Redist\CommonConfiguration\x64\NuiDatabase\HDFaceTracker\MouthModel\lopen.p.txt">
+      <PackagePath>NuiDatabase\HDFaceTracker\MouthModel\lopen.p.txt</PackagePath>
+      <Modified>2014-10-19T16:42:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\Redist\CommonConfiguration\x64\NuiDatabase\HDFaceTracker\AAMModel\Map2D3D_F.txt">
+      <PackagePath>NuiDatabase\HDFaceTracker\AAMModel\Map2D3D_F.txt</PackagePath>
+      <Modified>2014-10-19T16:42:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\Redist\CommonConfiguration\x64\NuiDatabase\HDFaceTracker\AAMModel\Map2D3D_HLP.txt">
+      <PackagePath>NuiDatabase\HDFaceTracker\AAMModel\Map2D3D_HLP.txt</PackagePath>
+      <Modified>2014-10-19T16:42:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\Redist\CommonConfiguration\x64\NuiDatabase\HDFaceTracker\AAMModel\Map2D3D_HRP.txt">
+      <PackagePath>NuiDatabase\HDFaceTracker\AAMModel\Map2D3D_HRP.txt</PackagePath>
+      <Modified>2014-10-19T16:42:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\Redist\CommonConfiguration\x64\NuiDatabase\HDFaceTracker\MouthModel\MeanShapes.txt">
+      <PackagePath>NuiDatabase\HDFaceTracker\MouthModel\MeanShapes.txt</PackagePath>
+      <Modified>2014-10-19T16:42:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\Redist\CommonConfiguration\x64\NuiDatabase\Expression\NuiExpressionModelManifest.txt">
+      <PackagePath>NuiDatabase\Expression\NuiExpressionModelManifest.txt</PackagePath>
+      <Modified>2014-10-19T16:42:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\Redist\CommonConfiguration\x64\NuiDatabase\HDFaceTracker\EvalModel\right.p.txt">
+      <PackagePath>NuiDatabase\HDFaceTracker\EvalModel\right.p.txt</PackagePath>
+      <Modified>2014-10-19T16:42:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\Redist\CommonConfiguration\x64\NuiDatabase\HDFaceTracker\ViewModel\right.p.txt">
+      <PackagePath>NuiDatabase\HDFaceTracker\ViewModel\right.p.txt</PackagePath>
+      <Modified>2014-10-19T16:42:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\Redist\CommonConfiguration\x64\NuiDatabase\HDFaceTracker\SkintoneModel\skintone_appearance_classifier.txt">
+      <PackagePath>NuiDatabase\HDFaceTracker\SkintoneModel\skintone_appearance_classifier.txt</PackagePath>
+      <Modified>2014-10-19T16:42:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\Redist\CommonConfiguration\x64\NuiDatabase\HDFaceTracker\SkintoneModel\skintone_shape_classifier.txt">
+      <PackagePath>NuiDatabase\HDFaceTracker\SkintoneModel\skintone_shape_classifier.txt</PackagePath>
+      <Modified>2014-10-19T16:42:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\Redist\CommonConfiguration\x64\NuiDatabase\Expression\ExpressionRandomForest.model">
+      <PackagePath>NuiDatabase\Expression\ExpressionRandomForest.model</PackagePath>
+      <Modified>2014-10-19T16:42:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\Redist\CommonConfiguration\x64\NuiDatabase\Expression\EyeLeftRandomForest.model">
+      <PackagePath>NuiDatabase\Expression\EyeLeftRandomForest.model</PackagePath>
+      <Modified>2014-10-19T16:42:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\Redist\CommonConfiguration\x64\NuiDatabase\Expression\EyeRightRandomForest.model">
+      <PackagePath>NuiDatabase\Expression\EyeRightRandomForest.model</PackagePath>
+      <Modified>2014-10-19T16:42:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\Redist\CommonConfiguration\x64\NuiDatabase\Expression\FacialHairIRRandomForest.model">
+      <PackagePath>NuiDatabase\Expression\FacialHairIRRandomForest.model</PackagePath>
+      <Modified>2014-10-19T16:42:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\Redist\CommonConfiguration\x64\NuiDatabase\Expression\FacialHairRandomForest.model">
+      <PackagePath>NuiDatabase\Expression\FacialHairRandomForest.model</PackagePath>
+      <Modified>2014-10-19T16:42:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\Redist\CommonConfiguration\x64\NuiDatabase\Expression\GlassesIRRandomForest.model">
+      <PackagePath>NuiDatabase\Expression\GlassesIRRandomForest.model</PackagePath>
+      <Modified>2014-10-19T16:42:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\Redist\CommonConfiguration\x64\NuiDatabase\Expression\GlassesRandomForest.model">
+      <PackagePath>NuiDatabase\Expression\GlassesRandomForest.model</PackagePath>
+      <Modified>2014-10-19T16:42:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\Redist\CommonConfiguration\x64\NuiDatabase\Expression\LookingAwayRandomForest.model">
+      <PackagePath>NuiDatabase\Expression\LookingAwayRandomForest.model</PackagePath>
+      <Modified>2014-10-19T16:42:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\Redist\CommonConfiguration\x64\NuiDatabase\Expression\MouthMovedRandomForest.model">
+      <PackagePath>NuiDatabase\Expression\MouthMovedRandomForest.model</PackagePath>
+      <Modified>2014-10-19T16:42:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\Redist\CommonConfiguration\x64\NuiDatabase\Expression\MouthOpenRandomForest.model">
+      <PackagePath>NuiDatabase\Expression\MouthOpenRandomForest.model</PackagePath>
+      <Modified>2014-10-19T16:42:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\Redist\CommonConfiguration\x64\NuiDatabase\HDFaceTracker\EyeState\EyeClose.pra">
+      <PackagePath>NuiDatabase\HDFaceTracker\EyeState\EyeClose.pra</PackagePath>
+      <Modified>2014-10-19T16:42:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\Redist\CommonConfiguration\x64\NuiDatabase\HDFaceTracker\EyeState\LeftCloseRightOpen44Flip.pra">
+      <PackagePath>NuiDatabase\HDFaceTracker\EyeState\LeftCloseRightOpen44Flip.pra</PackagePath>
+      <Modified>2014-10-19T16:42:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\Redist\CommonConfiguration\x64\NuiDatabase\HDFaceTracker\EyeState\LeftOpenRightClose44Flip.pra">
+      <PackagePath>NuiDatabase\HDFaceTracker\EyeState\LeftOpenRightClose44Flip.pra</PackagePath>
+      <Modified>2014-10-19T16:42:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\Redist\CommonConfiguration\x64\NuiDatabase\HDFaceTracker\EyeState\EyeClose.wgh">
+      <PackagePath>NuiDatabase\HDFaceTracker\EyeState\EyeClose.wgh</PackagePath>
+      <Modified>2014-10-19T16:42:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\Redist\CommonConfiguration\x64\NuiDatabase\HDFaceTracker\EyeState\LeftCloseRightOpen44Flip.wgh">
+      <PackagePath>NuiDatabase\HDFaceTracker\EyeState\LeftCloseRightOpen44Flip.wgh</PackagePath>
+      <Modified>2014-10-19T16:42:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\Redist\CommonConfiguration\x64\NuiDatabase\HDFaceTracker\EyeState\LeftOpenRightClose44Flip.wgh">
+      <PackagePath>NuiDatabase\HDFaceTracker\EyeState\LeftOpenRightClose44Flip.wgh</PackagePath>
+      <Modified>2014-10-19T16:42:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\Redist\CommonConfiguration\x64\NuiDatabase\Expression\Feature.config">
+      <PackagePath>NuiDatabase\Expression\Feature.config</PackagePath>
+      <Modified>2014-10-19T16:42:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\Redist\CommonConfiguration\x64\NuiDatabase\HDFaceTracker\WholeHeadModel\fullMeanHead60_tri.ply">
+      <PackagePath>NuiDatabase\HDFaceTracker\WholeHeadModel\fullMeanHead60_tri.ply</PackagePath>
+      <Modified>2014-10-19T16:42:38.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\Redist\CommonConfiguration\x64\Microsoft.Kinect.Face.dll">
+      <PackagePath>Microsoft.Kinect.Face.dll</PackagePath>
+      <Modified>2014-10-19T18:15:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dollar\Desktop\WearHacks2015\gitnew\kinect\Kinect2Sample\Assets\Background.png">
+      <PackagePath>Assets\Background.png</PackagePath>
+      <Modified>2015-10-04T14:35:10.695</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dollar\Desktop\WearHacks2015\gitnew\kinect\Kinect2Sample\Assets\CatEye_left_closed.png">
+      <PackagePath>Assets\CatEye_left_closed.png</PackagePath>
+      <Modified>2015-10-04T14:35:10.695</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dollar\Desktop\WearHacks2015\gitnew\kinect\Kinect2Sample\Assets\CatEye_left_open.png">
+      <PackagePath>Assets\CatEye_left_open.png</PackagePath>
+      <Modified>2015-10-04T14:35:10.695</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dollar\Desktop\WearHacks2015\gitnew\kinect\Kinect2Sample\Assets\CatNose.png">
+      <PackagePath>Assets\CatNose.png</PackagePath>
+      <Modified>2015-10-04T14:35:10.700</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dollar\Desktop\WearHacks2015\gitnew\kinect\Kinect2Sample\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-04T14:35:10.700</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dollar\Desktop\WearHacks2015\gitnew\kinect\Kinect2Sample\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-04T14:35:10.700</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dollar\Desktop\WearHacks2015\gitnew\kinect\Kinect2Sample\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-04T14:35:10.700</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dollar\Desktop\WearHacks2015\gitnew\kinect\Kinect2Sample\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-10-04T14:35:10.700</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dollar\Desktop\WearHacks2015\gitnew\kinect\Kinect2Sample\bin\x64\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2015-10-04T14:36:08.374</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dollar\Desktop\WearHacks2015\gitnew\kinect\Kinect2Sample\bin\x64\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2015-10-04T14:36:08.374</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dollar\Desktop\WearHacks2015\gitnew\kinect\Kinect2Sample\bin\x64\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2015-10-04T14:36:09.014</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00.Debug</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Debug, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.12.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00.Debug</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Debug, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.12.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\">
+      <Name>Microsoft.VCLibs.120.00.Debug</Name>
+      <Version>12.0.21005.1</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.120.00.Debug, MinVersion = 12.0.21005.1</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.VCLibs\12.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.12.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\WindowsPreview.Kinect\2.0\">
+      <Name>Microsoft.WindowsPreview.Kinect.8.1</Name>
+      <Version>2.0.1410.19000</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsPreview.Kinect.8.1, MinVersion = 2.0.1410.19000</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\WindowsPreview.Kinect\2.0\.\AppX\Debug\x64\WindowsPreview.Kinect_2.0_x64.appx</AppxLocation>
+      <MoreInfo>http://www.kinectforwindows.com</MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\WindowsPreview.Kinect\2.0\">
+      <Name>Microsoft.WindowsPreview.Kinect.8.1</Name>
+      <Version>2.0.1410.19000</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.WindowsPreview.Kinect.8.1, MinVersion = 2.0.1410.19000</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\WindowsPreview.Kinect\2.0\.\AppX\Debug\x86\WindowsPreview.Kinect_2.0_Win32.appx</AppxLocation>
+      <MoreInfo>http://www.kinectforwindows.com</MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1 @@
+C:\Users\Dollar\Desktop\WearHacks2015\gitnew\kinect\Kinect2Sample\Kinect2Sample.csproj;x64
