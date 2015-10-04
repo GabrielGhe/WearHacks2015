@@ -8,11 +8,9 @@ var twilio = require('twilio');
 var client = new twilio.RestClient('AC0662afad9cf5f3753a00b71e5b0ad975', '73deaec2c6121bea06685b15c6580fce');
 
 exports.index = function(req, res){
-  res.render('index', { title: 'Express' });
-	sendTwilioMessage('+1 514-574-8677','1 514-574-8677',JSON.stringify(req.body), function(error, message) {
-		res.send(200);
-	});
-  console.log(req.body);
+	res.render('index', { title: 'Express' });
+	console.log(req.body);
+	sendTwilioMessage('+1 514-574-8677','1 514-574-8677',JSON.stringify(req.body));
 };
 
 
