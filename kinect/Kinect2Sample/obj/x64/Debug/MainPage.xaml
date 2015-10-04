@@ -67,11 +67,11 @@
             <ScrollViewer Grid.Row="2" ScrollViewer.HorizontalScrollBarVisibility="Auto" 
                           ScrollViewer.VerticalScrollBarVisibility="Auto">
                 <StackPanel Orientation="Horizontal">
-                    <Button x:ConnectionId='1' Style="{StaticResource FrameSelectorButtonStyle}"
+                    <Button x:ConnectionId='0' Style="{StaticResource FrameSelectorButtonStyle}"
                                                          >
                         <TextBlock Text="Color Face" TextWrapping="Wrap" />
                     </Button>
-                    <Button x:ConnectionId='2' Style="{StaticResource FrameSelectorButtonStyle}"
+                    <Button x:ConnectionId='0' Style="{StaticResource FrameSelectorButtonStyle}"
                                                              x:Name="InfraredFaceButton">
                         <TextBlock Text="Infrared Face" TextWrapping="Wrap" />
                     </Button>

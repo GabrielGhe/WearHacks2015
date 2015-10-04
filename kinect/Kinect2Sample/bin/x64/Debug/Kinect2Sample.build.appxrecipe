@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DOLLARSURFACE</Machine>
-    <WindowsUser>Dollar</WindowsUser>
+    <Machine>EISSAC-SP3</Machine>
+    <WindowsUser>cassie</WindowsUser>
     <SolutionConfiguration>Debug|x64</SolutionConfiguration>
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>33ba04fc-07f2-4c70-b056-f6f14aeb9b79</PackageIdentityName>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Dollar\Desktop\WearHacks2015\gitnew\kinect\Kinect2Sample\bin\x64\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\cassie\Documents\GitHub\WearHacks2015\kinect\Kinect2Sample\bin\x64\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Dollar\Desktop\WearHacks2015\gitnew\kinect\Kinect2Sample\bin\x64\Debug\Kinect2Sample.exe">
+    <AppxPackagedFile Include="C:\Users\cassie\Documents\GitHub\WearHacks2015\kinect\Kinect2Sample\bin\x64\Debug\Kinect2Sample.exe">
       <PackagePath>Kinect2Sample.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\References\CommonConfiguration\neutral\Microsoft.Kinect.Face.winmd">
       <PackagePath>Microsoft.Kinect.Face.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dollar\Desktop\WearHacks2015\gitnew\kinect\Kinect2Sample\Libraries\x64\KinectFaceStore.dll">
+    <AppxPackagedFile Include="C:\Users\cassie\Documents\GitHub\WearHacks2015\kinect\Kinect2Sample\Libraries\x64\KinectFaceStore.dll">
       <PackagePath>KinectFaceStore.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\Redist\CommonConfiguration\x64\NuiDatabase\HDFaceTracker\AAMModel\3DModel.bin">
@@ -197,41 +197,41 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\Redist\CommonConfiguration\x64\Microsoft.Kinect.Face.dll">
       <PackagePath>Microsoft.Kinect.Face.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dollar\Desktop\WearHacks2015\gitnew\kinect\Kinect2Sample\Assets\Background.png">
+    <AppxPackagedFile Include="C:\Users\cassie\Documents\GitHub\WearHacks2015\kinect\Kinect2Sample\Assets\Background.png">
       <PackagePath>Assets\Background.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dollar\Desktop\WearHacks2015\gitnew\kinect\Kinect2Sample\Assets\CatEye_left_closed.png">
+    <AppxPackagedFile Include="C:\Users\cassie\Documents\GitHub\WearHacks2015\kinect\Kinect2Sample\Assets\CatEye_left_closed.png">
       <PackagePath>Assets\CatEye_left_closed.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dollar\Desktop\WearHacks2015\gitnew\kinect\Kinect2Sample\Assets\CatEye_left_open.png">
+    <AppxPackagedFile Include="C:\Users\cassie\Documents\GitHub\WearHacks2015\kinect\Kinect2Sample\Assets\CatEye_left_open.png">
       <PackagePath>Assets\CatEye_left_open.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dollar\Desktop\WearHacks2015\gitnew\kinect\Kinect2Sample\Assets\CatNose.png">
+    <AppxPackagedFile Include="C:\Users\cassie\Documents\GitHub\WearHacks2015\kinect\Kinect2Sample\Assets\CatNose.png">
       <PackagePath>Assets\CatNose.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dollar\Desktop\WearHacks2015\gitnew\kinect\Kinect2Sample\Assets\Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\cassie\Documents\GitHub\WearHacks2015\kinect\Kinect2Sample\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dollar\Desktop\WearHacks2015\gitnew\kinect\Kinect2Sample\Assets\SmallLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\cassie\Documents\GitHub\WearHacks2015\kinect\Kinect2Sample\Assets\SmallLogo.scale-100.png">
       <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dollar\Desktop\WearHacks2015\gitnew\kinect\Kinect2Sample\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\cassie\Documents\GitHub\WearHacks2015\kinect\Kinect2Sample\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dollar\Desktop\WearHacks2015\gitnew\kinect\Kinect2Sample\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\cassie\Documents\GitHub\WearHacks2015\kinect\Kinect2Sample\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dollar\Desktop\WearHacks2015\gitnew\kinect\Kinect2Sample\bin\x64\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\cassie\Documents\GitHub\WearHacks2015\kinect\Kinect2Sample\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dollar\Desktop\WearHacks2015\gitnew\kinect\Kinect2Sample\bin\x64\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\cassie\Documents\GitHub\WearHacks2015\kinect\Kinect2Sample\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dollar\Desktop\WearHacks2015\gitnew\kinect\Kinect2Sample\bin\x64\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\cassie\Documents\GitHub\WearHacks2015\kinect\Kinect2Sample\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

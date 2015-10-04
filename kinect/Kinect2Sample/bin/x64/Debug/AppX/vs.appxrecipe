@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>DOLLARSURFACE</Machine>
-    <WindowsUser>Dollar</WindowsUser>
+    <Machine>EISSAC-SP3</Machine>
+    <WindowsUser>cassie</WindowsUser>
     <SolutionConfiguration>Debug|x64</SolutionConfiguration>
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>33ba04fc-07f2-4c70-b056-f6f14aeb9b79</PackageIdentityName>
-    <RegisteredManifestChecksum>D3E24C2BAAFC8A9518514765BD9AC23DE4CEBC312D154B123783EA3AD8A73801</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>D2F1F1AEEA3958F1A1D139C410EFB8DCC3A8F228CF9CD0FC33BECC718F629217</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>33ba04fc-07f2-4c70-b056-f6f14aeb9b79_1.0.0.0_x64__2ysye2qyxxc1e</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>33ba04fc-07f2-4c70-b056-f6f14aeb9b79_2ysye2qyxxc1e!App</RegisteredUserModeAppID>
     <RegisteredPackageID>33ba04fc-07f2-4c70-b056-f6f14aeb9b79</RegisteredPackageID>
@@ -14,24 +14,24 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Dollar\Desktop\WearHacks2015\gitnew\kinect\Kinect2Sample\bin\x64\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\cassie\Documents\GitHub\WearHacks2015\kinect\Kinect2Sample\bin\x64\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-10-04T14:36:10.042</Modified>
+      <Modified>2015-10-04T14:42:00.664</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Dollar\Desktop\WearHacks2015\gitnew\kinect\Kinect2Sample\bin\x64\Debug\Kinect2Sample.exe">
+    <AppxPackagedFile Include="C:\Users\cassie\Documents\GitHub\WearHacks2015\kinect\Kinect2Sample\bin\x64\Debug\Kinect2Sample.exe">
       <PackagePath>Kinect2Sample.exe</PackagePath>
-      <Modified>2015-10-04T14:36:08.629</Modified>
+      <Modified>2015-10-04T15:01:21.612</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\References\CommonConfiguration\neutral\Microsoft.Kinect.Face.winmd">
       <PackagePath>Microsoft.Kinect.Face.winmd</PackagePath>
       <Modified>2014-10-19T18:17:02.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dollar\Desktop\WearHacks2015\gitnew\kinect\Kinect2Sample\Libraries\x64\KinectFaceStore.dll">
+    <AppxPackagedFile Include="C:\Users\cassie\Documents\GitHub\WearHacks2015\kinect\Kinect2Sample\Libraries\x64\KinectFaceStore.dll">
       <PackagePath>KinectFaceStore.dll</PackagePath>
-      <Modified>2015-10-04T14:35:10.705</Modified>
+      <Modified>2015-10-03T16:34:39.369</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.Kinect.Face\2.0\Redist\CommonConfiguration\x64\NuiDatabase\HDFaceTracker\AAMModel\3DModel.bin">
       <PackagePath>NuiDatabase\HDFaceTracker\AAMModel\3DModel.bin</PackagePath>
@@ -265,53 +265,53 @@
       <PackagePath>Microsoft.Kinect.Face.dll</PackagePath>
       <Modified>2014-10-19T18:15:52.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dollar\Desktop\WearHacks2015\gitnew\kinect\Kinect2Sample\Assets\Background.png">
+    <AppxPackagedFile Include="C:\Users\cassie\Documents\GitHub\WearHacks2015\kinect\Kinect2Sample\Assets\Background.png">
       <PackagePath>Assets\Background.png</PackagePath>
-      <Modified>2015-10-04T14:35:10.695</Modified>
+      <Modified>2015-10-03T16:34:39.193</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dollar\Desktop\WearHacks2015\gitnew\kinect\Kinect2Sample\Assets\CatEye_left_closed.png">
+    <AppxPackagedFile Include="C:\Users\cassie\Documents\GitHub\WearHacks2015\kinect\Kinect2Sample\Assets\CatEye_left_closed.png">
       <PackagePath>Assets\CatEye_left_closed.png</PackagePath>
-      <Modified>2015-10-04T14:35:10.695</Modified>
+      <Modified>2015-10-03T16:34:39.195</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dollar\Desktop\WearHacks2015\gitnew\kinect\Kinect2Sample\Assets\CatEye_left_open.png">
+    <AppxPackagedFile Include="C:\Users\cassie\Documents\GitHub\WearHacks2015\kinect\Kinect2Sample\Assets\CatEye_left_open.png">
       <PackagePath>Assets\CatEye_left_open.png</PackagePath>
-      <Modified>2015-10-04T14:35:10.695</Modified>
+      <Modified>2015-10-03T16:34:39.196</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dollar\Desktop\WearHacks2015\gitnew\kinect\Kinect2Sample\Assets\CatNose.png">
+    <AppxPackagedFile Include="C:\Users\cassie\Documents\GitHub\WearHacks2015\kinect\Kinect2Sample\Assets\CatNose.png">
       <PackagePath>Assets\CatNose.png</PackagePath>
-      <Modified>2015-10-04T14:35:10.700</Modified>
+      <Modified>2015-10-03T16:34:39.199</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dollar\Desktop\WearHacks2015\gitnew\kinect\Kinect2Sample\Assets\Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\cassie\Documents\GitHub\WearHacks2015\kinect\Kinect2Sample\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-10-04T14:35:10.700</Modified>
+      <Modified>2015-10-03T16:34:39.200</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dollar\Desktop\WearHacks2015\gitnew\kinect\Kinect2Sample\Assets\SmallLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\cassie\Documents\GitHub\WearHacks2015\kinect\Kinect2Sample\Assets\SmallLogo.scale-100.png">
       <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-10-04T14:35:10.700</Modified>
+      <Modified>2015-10-03T16:34:39.201</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dollar\Desktop\WearHacks2015\gitnew\kinect\Kinect2Sample\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\cassie\Documents\GitHub\WearHacks2015\kinect\Kinect2Sample\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-10-04T14:35:10.700</Modified>
+      <Modified>2015-10-03T16:34:39.202</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dollar\Desktop\WearHacks2015\gitnew\kinect\Kinect2Sample\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\cassie\Documents\GitHub\WearHacks2015\kinect\Kinect2Sample\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-10-04T14:35:10.700</Modified>
+      <Modified>2015-10-03T16:34:39.203</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dollar\Desktop\WearHacks2015\gitnew\kinect\Kinect2Sample\bin\x64\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\cassie\Documents\GitHub\WearHacks2015\kinect\Kinect2Sample\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2015-10-04T14:36:08.374</Modified>
+      <Modified>2015-10-04T14:39:34.396</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dollar\Desktop\WearHacks2015\gitnew\kinect\Kinect2Sample\bin\x64\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\cassie\Documents\GitHub\WearHacks2015\kinect\Kinect2Sample\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2015-10-04T14:36:08.374</Modified>
+      <Modified>2015-10-04T15:01:21.404</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Dollar\Desktop\WearHacks2015\gitnew\kinect\Kinect2Sample\bin\x64\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\cassie\Documents\GitHub\WearHacks2015\kinect\Kinect2Sample\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-10-04T14:36:09.014</Modified>
+      <Modified>2015-10-04T14:41:58.514</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

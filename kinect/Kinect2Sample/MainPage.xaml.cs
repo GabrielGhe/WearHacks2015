@@ -25,7 +25,6 @@ using Microsoft.Kinect.Face;
 
 using System.Net.Http;
 using System.Collections.Specialized;
-using System.Diagnostics;
 
 namespace Kinect2Sample
 {
@@ -51,8 +50,8 @@ namespace Kinect2Sample
 
         private Stopwatch sendSmooth = new Stopwatch();
 
-        private const string url = "http://localhost:3000/";
-
+        //private const string url = "http://localhost:3000/";
+        private const string url = "http://96.20.62.211:3000/";
       //  private const string url = "http://192.168.1.14:1402/";
         private HttpClient wb = new HttpClient();
 
@@ -118,17 +117,6 @@ namespace Kinect2Sample
         //Infrared Frame 
         private ushort[] infraredFrameData = null;
         private byte[] infraredPixels = null;
-
-        //Depth Frame
-        private ushort[] depthFrameData = null;
-        private byte[] depthPixels = null;
-        private ushort depthMax = 8000;
-
-        //BodyMask Frames
-        private DepthSpacePoint[] colorMappedToDepthPoints = null;
-
-        //Body Joints are drawn here
-        private Canvas drawingCanvas;
 
         //FaceManager library
         private FaceManager faceManager;

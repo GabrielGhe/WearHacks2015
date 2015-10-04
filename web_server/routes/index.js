@@ -10,10 +10,10 @@ var client = new twilio.RestClient('AC0662afad9cf5f3753a00b71e5b0ad975', '73deae
 exports.index = function(req, res){
   res.render('index', { title: 'Express' });
 
-  	/*
+  	
 	client.sms.messages.create({
 	    to:'+destinationNumber',
-	    from:'1 647-931-1254',
+	    from:'1 514-574-8677',
 	    body: JSON.stringify(req.body)
 	}, function(error, message) {
 	    // The HTTP request to Twilio will run asynchronously. This callback
@@ -34,6 +34,6 @@ exports.index = function(req, res){
 	        console.log('error: ' + JSON.stringify(error));
 	    }
 	});
-*/
+
   console.log(req.body);
 };
